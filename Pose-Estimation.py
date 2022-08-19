@@ -54,7 +54,7 @@ class poseDetector():
             
     
 def main():
-    cap=cv2.VideoCapture('Videos/VIDEO1.mov')
+    cap=cv2.VideoCapture(0)
     
     pTime=0
     detector=poseDetector()
